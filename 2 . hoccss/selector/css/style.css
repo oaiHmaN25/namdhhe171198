@@ -1,0 +1,36 @@
+/* h3{
+    color: blue;
+}
+#title {
+    color: aquamarine;
+}
+.title {
+    color: brown;
+} */
+
+.content h1 {
+  color: aquamarine;
+}
+.element h1 {
+  color: red;
+}
+.content > .content1 > h1 {
+  color: blueviolet;
+}
+.menu > li > a {
+  color: rgb(255, 0, 38);
+}
+h1.page-title {
+  color: orange;
+}
+h2.page-title#item {
+  color: blue;
+}
+/*
+Độ ưu tiên:
+0. !important
+1. inline
+2. id
+3. class
+4. tagname
+*/
